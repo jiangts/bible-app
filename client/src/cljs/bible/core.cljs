@@ -2,9 +2,9 @@
   (:require [reagent.core :as reagent]
             [re-frame.core :as re-frame]
             [re-frisk.core :refer [enable-re-frisk!]]
-            [bible.events]
-            [bible.subs]
-            [bible.views :as views]
+            [bible.scenes.root.events]
+            [bible.scenes.root.subs]
+            [bible.scenes.root.views :as views]
             [bible.config :as config]))
 
 

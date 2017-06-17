@@ -1,4 +1,4 @@
-(ns bible.events
+(ns bible.scenes.root.events
   (:require [re-frame.core :as re-frame]
             [bible.db :as db]))
 
