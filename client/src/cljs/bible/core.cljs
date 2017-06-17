@@ -5,6 +5,7 @@
             [bible.scenes.root.events]
             [bible.scenes.root.subs]
             [bible.scenes.root.views :as views]
+            [bible.services.routes :as routes]
             [bible.config :as config]))
 
 
@@ -21,5 +22,6 @@
 
 (defn ^:export init []
   (re-frame/dispatch-sync [:initialize-db])
+  (routes/app-routes)
   (dev-setup)
   (mount-root))

@@ -1,0 +1,16 @@
+{
+  "name": "bible",
+  "homepage": "https://github.com/jiangts/bible-app",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootswatch": "^3.3.7"
+  }
+}

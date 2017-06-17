@@ -6,6 +6,8 @@
                  [re-frisk "0.4.5"]
                  [garden "1.3.2"]
                  [ns-tracker "0.3.0"]
+                 [bidi "2.1.1"]
+                 [kibu/pushy "0.3.7"]
                  [cljsjs/react-bootstrap "0.30.7-0"]
                  [cljsjs/feathers "2.0.0-pre.1-0"]
                  [cljsjs/socket-io "2.0.1-0"]]
