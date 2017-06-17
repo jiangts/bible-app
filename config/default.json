@@ -1,7 +1,7 @@
 {
   "host": "localhost",
-  "port": 3030,
-  "public": "../public/",
+  "port": 4040,
+  "public": "../client/resources/public/",
   "paginate": {
     "default": 10,
     "max": 50
